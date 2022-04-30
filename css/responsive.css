@@ -16,10 +16,10 @@
     }
 
     .gif-controle {
-        width: 100px;
+        width: 90px;
         position: absolute;
-        top: 50px;
-        right: 15px;
+        top: 60px;
+        right: 25px;
     }
 
     .containerS-1 {
@@ -105,7 +105,7 @@
     .gif-controle {
         width: 150px;
         position: absolute;
-        right: 15px;
+        right: 30px;
     }
 
     .containerS-1 {
@@ -169,7 +169,7 @@
 }
 
 @media (min-width: 1701px) {
- 
+
 
     .sessao-4 {
         display: flex;
@@ -216,7 +216,7 @@
     }
 
     .container-galeria div {
-        width:22%;
+        width: 22%;
         height: 250px;
         background-color: #121038;
         border-radius: 20px;
@@ -229,9 +229,97 @@
         width: 100%;
         height: 100%;
         border-radius: 20px;
-    
+
     }
 
 }
 
 
+@media (min-width:1901px) {
+    .containerS-1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+    @media (min-width:3000px) {
+
+    
+        /*sessão 4*/
+
+        .sessao-4 {
+            display: flex;
+            padding-top: 30px;
+            justify-content:center;
+
+        }
+
+        .container-usuario {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            background-color: #121038;
+            height: 300px;
+
+        }
+
+        .caixa{
+            max-width: 800px;
+        }
+
+        .usuario {
+            flex: 1;
+
+            display: block;
+            border-radius: 10px;
+            height: 100px !important;
+            font-size: 50px !important;
+            text-align: left !important;
+            padding-left: 30px !important;
+            color: #66FED1;
+        }
+
+        .container-usuario div {
+            display: flex;
+            width: 100%;
+            margin-bottom: 20px;
+            height: 150px;
+            background-color: #3A277C;
+            font-weight: bold;
+            font-size:30px;
+            padding: 20px;
+        }
+
+        .container-galeria {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-left: 100px;
+            max-width: 2300px !important;
+
+        }
+
+        .container-galeria div {
+            width: 22%;
+            height: 250px;
+            background-color: #121038;
+            border-radius: 20px;
+            margin-bottom: 70px;
+        }
+
+
+
+        .container-galeria img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+
+        }
+
+    }
+
+}
